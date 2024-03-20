@@ -1,0 +1,14 @@
+1. Visit https://cloud.google.com/ and sign in to GCP account.
+2. Navigated to the console by clicking on the "Go to Console" button.
+3. On the left-hand menu, select Compute Engine and then choose VM instances.
+4. Enable Compute Engine.
+5. On the Compute Engine dashboard, click the "Create Instance" button to initiate the creation of a new VM instance.
+6. Configure the VM instance settings:
+   - Provide a name for the instance, I choose "my-virtual-machine-001".
+   - Machine configuration - Opted the e2-micro machine type(for free vm).
+   - Selected a Standard persistent disk.
+   - Keep other options at their default values.
+7. Click on the "Create" button to finalize the creation of the new VM instance.
+8. VM is created and Got IP's
+   - Private IP : 10.128.0.2
+   - Public IP  : 34.122.107.8
